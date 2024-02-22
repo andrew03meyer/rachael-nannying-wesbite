@@ -24,7 +24,7 @@ function Sidebar(){
 
         <li>
             <a
-            href="#"
+            href="https://github.com/andrew03meyer"
             className="group-hover:block hidden truncate rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
             >
             Teams
@@ -33,7 +33,7 @@ function Sidebar(){
 
         <li >
             <a
-            href="#"
+            href="https://github.com/andrew03meyer"
             className="group-hover:block hidden truncate rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
             >
             Billing
@@ -42,7 +42,7 @@ function Sidebar(){
 
         <li >
             <a
-            href="#"
+            href="https://github.com/andrew03meyer"
             className="group-hover:block hidden truncate rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
             >
             Invoices
@@ -51,7 +51,7 @@ function Sidebar(){
 
         <li >
             <a
-            href="#"
+            href="https://github.com/andrew03meyer"
             className="group-hover:block hidden truncate rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
             >
             Account
