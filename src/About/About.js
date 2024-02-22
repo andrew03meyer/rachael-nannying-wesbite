@@ -4,7 +4,7 @@ import NannyPic from "../assets/images/testimage.jpg";
 function About() {
   return (
     <div className="flex">
-      <Sidebar />
+      {/* <Sidebar /> */}
       <div>
         <img src={NannyPic} alt="Nanny" className="absolute z-0 opacity-70"/>
         <div className="z-1 absolute m-10">
