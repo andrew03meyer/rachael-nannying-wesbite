@@ -21,42 +21,6 @@ function Sidebar(){
             About
             </Link>
         </li>
-
-        <li>
-            <a
-            href="https://github.com/andrew03meyer"
-            className="group-hover:block hidden truncate rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
-            >
-            Teams
-            </a>
-        </li>
-
-        <li >
-            <a
-            href="https://github.com/andrew03meyer"
-            className="group-hover:block hidden truncate rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
-            >
-            Billing
-            </a>
-        </li>
-
-        <li >
-            <a
-            href="https://github.com/andrew03meyer"
-            className="group-hover:block hidden truncate rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
-            >
-            Invoices
-            </a>
-        </li>
-
-        <li >
-            <a
-            href="https://github.com/andrew03meyer"
-            className="group-hover:block hidden truncate rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
-            >
-            Account
-            </a>
-        </li>
     </ul>
     );
 }
