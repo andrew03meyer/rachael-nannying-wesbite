@@ -18,9 +18,9 @@ function Homepage() {
   }, []);
 
   return (
-    <div className="flex flex-col items-center justify-center relative w-screen h-screen">
-      <img src={images[index]} alt="Nanny" className="z-0 opacity-80 w-full" />
-      <div className="z-1 absolute m-10">
+    <div className="flex flex-col items-center justify-center relative w-screen h-auto max-h-screen  overflow-y-hidden">
+      <img src={images[index]} alt="Nanny" className="opacity-80 w-full h-auto" />
+      <div className="absolute m-10">
         <h2 className="text-2xl">{captions[index]}</h2>
       </div>
     </div>
