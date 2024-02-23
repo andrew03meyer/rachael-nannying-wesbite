@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Sidebar(){
     return(
-    <ul className ="group space-y-1 h-screen w-20 hover:w-1/6 transition-all duration-800">
+    <ul className ="group space-y-1 h-screen w-20 hover:w-60 transition-all duration-700">
         <li className="group group-hover:block block w-1/6 hover:w-1/6 rounded-lg px-4 py-2 text-sm font-medium">
             <div className="group-hover">
                 <div className="transition-all duration-1000 group-hover:w-7 w-5 h-0.5 bg-black m-2"></div>
