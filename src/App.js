@@ -7,7 +7,7 @@ import Rates from "./Rates/Rates";
 
 function App() {
   return (
-    <div className="flex App">
+    <div className="flex bg-orange-100 App">
 
       <BrowserRouter>
       <Sidebar />
