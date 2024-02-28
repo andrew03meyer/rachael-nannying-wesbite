@@ -1,24 +1,39 @@
-import React, { useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
   const form = useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+  const [canSend, setCS] = useState(true);
+  useEffect(() => {
+    const setCanSend = setInterval(() => {
+      setCS(canSend => !canSend);
+      console.log('canSend: ', canSend);
+    }, 3000);
 
-    emailjs
-      .sendForm('service_yyf2sly', 'template_krykwfy', form.current, {
-        publicKey: 'U41YQeEE_LZ0ZcVpz',
-      })
-      .then(
-        () => {
-          console.log('SUCCESS!');
-        },
-        (error) => {
-          console.log('FAILED...', error.text);
-        },
-      );
+    // Stops repeating code
+    return () => clearInterval(setCanSend);
+  }, []);
+
+  const sendEmail = (e) => {
+    if (canSend) {
+      e.preventDefault();
+
+      emailjs
+        .sendForm('service_yyf2sly', 'template_krykwfy', form.current, {
+          publicKey: 'U41YQeEE_LZ0ZcVpz',
+        })
+        .then(
+          () => {
+            console.log('SUCCESS!');
+          },
+          (error) => {
+            console.log('FAILED...', error.text);
+          },
+        );
+    } else {
+      console.log('You have sent too many emails');
+    } 
   };
 
   return (
