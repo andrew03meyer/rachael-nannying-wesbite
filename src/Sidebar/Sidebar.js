@@ -27,6 +27,12 @@ function Sidebar(){
             Rates
             </Link>
         </li>
+        
+        <li>
+            <Link to="/contact" className="group-hover:block hidden truncate rounded-lg px-4 py-2 text-xl hover:text-2xl transition-all duration-800 font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700">
+            Contact Us
+            </Link>
+        </li>
     </ul>
     );
 }

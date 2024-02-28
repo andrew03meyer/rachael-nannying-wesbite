@@ -8,7 +8,7 @@ import FacebookLogo from "../assets/images/facebook_logo.svg";
 const images = [NannyPic, NannyPic2, GithubLogo, InstagramLogo, FacebookLogo];
 const captions = ["Quality care for your loved ones", "We are here to help", "howdy", "message", "hi how are you?"];
 
-function Carousel() {
+function Homepage() {
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
@@ -35,4 +35,4 @@ function Carousel() {
   );
 }
 
-export default Carousel;
+export default Homepage;
