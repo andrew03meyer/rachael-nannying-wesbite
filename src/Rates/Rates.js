@@ -1,6 +1,6 @@
 function Rates() {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center h-screen w-full">
       <table className="table-fixed m-10">
         <thead className="border-solid border-2 border-black">
         <tr>

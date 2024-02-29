@@ -21,7 +21,7 @@ function Homepage() {
   }, []);
 
   return (
-    <div className="flex flex-col items-center justify-center relative w-screen h-auto max-h-screen overflow-y-hidden">
+    <div className="flex flex-col items-center justify-center relative w-screen h-auto max-h-screen overflow-y-hidden mb-40">
       <img id="image" src={images[index]} alt="Nanny" className="w-full h-auto" />
       <div className="absolute m-10">
         <h2 className="text-7xl text-orange-50 font-bold">{captions[index]}</h2>

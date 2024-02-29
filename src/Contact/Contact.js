@@ -38,8 +38,8 @@ const Contact = () => {
 
   return (
     <>
-      <div className='flex flex-col items-center relative w-full h-auto font-serif'>
-        <h1 className="text-7xl text-center mt-20 mb-20 font-bold text-orange-300">Contact Me:</h1>
+      <div className='flex flex-col items-center relative w-full h-screen font-serif'>
+        <h1 className="text-7xl text-center mt-20 mb-20 font-bold text-orange-300">Contact Us:</h1>
         <form ref={form} onSubmit={sendEmail} className="flex flex-col items-center justify-center w-full">
           <input type="text" name="from_name" placeholder="Full Name" className="m-5 w-1/6 p-1" />
           <input type="email" name="email" placeholder="Email" className="m-5 w-1/6 p-1" />
