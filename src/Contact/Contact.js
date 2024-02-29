@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
+import TopBanner from '../TopBanner/TopBanner';
 
 const Contact = () => {
   const form = useRef();
@@ -39,12 +40,13 @@ const Contact = () => {
   return (
     <>
       <div className='flex flex-col items-center relative w-full h-screen font-serif'>
-        <h1 className="text-7xl text-center mt-20 mb-20 font-bold text-orange-300">Contact Us:</h1>
+        <TopBanner />
+        <h1 className="text-7xl text-center mt-20 mb-20 font-bold text-black">Contact Us:</h1>
         <form ref={form} onSubmit={sendEmail} className="flex flex-col items-center justify-center w-full">
-          <input type="text" name="from_name" placeholder="Full Name" className="m-5 w-1/6 p-1" />
-          <input type="email" name="email" placeholder="Email" className="m-5 w-1/6 p-1" />
-          <textarea name="message" placeholder="Message" className="m-5 w-1/6 p-1" />
-          <input type="submit" value="Send" className="bg-orange-200 border-solid border-orange-300 border-2 rounded-xl w-32 h-12 hover:text-lg transition-all duration-700" />
+          <input type="text" name="from_name" placeholder="Full Name" className="m-5 w-1/6 p-1 bg-gradient-to-br from-white to-orange-100" />
+          <input type="email" name="email" placeholder="Email" className="m-5 w-1/6 p-1 bg-gradient-to-br from-white to-orange-100" />
+          <textarea name="message" placeholder="Message" className="m-5 w-1/6 p-1 bg-gradient-to-br from-white to-orange-100" />
+          <input type="submit" value="Send" className="bg-gradient-to-br from-white to-orange-100 border-solid border-orange-100 border-2 rounded-xl w-32 h-12 hover:text-lg transition-all duration-700 p-1" />
         </form>
       </div>
     </>

@@ -10,7 +10,7 @@ import Banner from "./Banner/Banner";
 
 function App() {
   return (
-    <div className="flex flex-col bg-gradient-to-t from-orange-200 via-orange-100 to-orange-200">
+    <div className="flex flex-col">
         <BrowserRouter>
         <div className="flex App ">
           <Sidebar />

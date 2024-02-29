@@ -10,18 +10,18 @@ function About() {
           <img src={NannyPic} alt="Nanny" className="opacity-70 w-full mt-5 mb-5 rounded-3xl"/>
         </div>
         
-        <h2 className="absolute text-7xl text-center mt-48 font-serif font-bold text-orange-300">About Me:</h2>
+        <h2 className="absolute text-7xl text-center mt-48 font-serif font-bold text-black">About Me:</h2>
 
-        <div className="relative p-5 bg-gradient-to-r from-orange-100 to-orange-200 font-serif m-5 mr-10 shadow-2xl rounded-3xl w-5/6">
-          <h2 className="text-3xl">Location:</h2>
-          <p className="text-xl">
+        <div className="relative p-5 bg-gradient-to-br from-white to-orange-100 font-serif mt-10 ml-10 shadow-2xl w-full">
+          <h2 className="text-3xl m-2 underline">Location:</h2>
+          <p className="text-xl italic">
             I'm based in Tewkesbury, but am happy to travel to surrounding areas. Please contact me to discuss your requirements.
           </p>
         </div>
 
-        <div className="relative p-5 bg-gradient-to-r from-orange-100 to-orange-200 font-serif m-5 mr-10 shadow-2xl rounded-3xl w-5/6">
-          <h2 className="text-3xl">About Me</h2>
-          <p className="text-xl">
+        <div className="relative p-5 bg-gradient-to-br from-white to-orange-100 font-serif ml-10 shadow-2xl w-full">
+          <h2 className="text-3xl m-2 underline">About Me</h2>
+          <p className="text-xl italic">
             It if sometimes furnished unwilling as additions so. Blessing resolved peculiar fat graceful ham. 
             Sussex on at really ladies in as elinor. Sir sex opinions age properly extended. Advice branch vanity 
             or do thirty living. Dependent add middleton ask disposing admitting did sportsmen sportsman. Warmly 

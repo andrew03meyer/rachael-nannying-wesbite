@@ -21,12 +21,13 @@ function Homepage() {
   }, []);
 
   return (
-    <div className="flex flex-col items-center justify-center relative w-screen h-auto max-h-screen overflow-y-hidden mb-40">
+    <div className="flex flex-col items-center justify-center relative w-screen h-auto max-h-screen overflow-y-hidden mb-40 text-serif">
+      
       <img id="image" src={images[index]} alt="Nanny" className="w-full h-auto" />
       <div className="absolute m-10">
-        <h2 className="text-7xl text-orange-50 font-bold">{captions[index]}</h2>
+        <h2 className="text-7xl text-black font-bold">{captions[index]}</h2>
       </div>
-      <div className="absolute w-14 flex flex-col justify-center items-center right-0 float-end m-10 items bg-orange-50 rounded-2xl">
+      <div className="absolute w-14 flex flex-col justify-center items-center right-0 float-end m-10 rounded-2xl bg-gradient-to-br from-white to-orange-100">
         <img src={GithubLogo} alt="Github" className="w-10 h-10 m-2 hover:w-12 hover:h-12 transition-all duration-500" />
         <img src={InstagramLogo} alt="Instagram" className="w-10 h-10 m-2 hover:w-12 hover:h-12 transition-all duration-500" />
         <img src={FacebookLogo} alt="Facebook" className="w-10 h-10 m-2 hover:w-12 hover:h-12 transition-all duration-500" />
