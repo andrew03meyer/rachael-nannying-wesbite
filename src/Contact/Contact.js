@@ -1,40 +1,25 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import TopBanner from '../TopBanner/TopBanner';
 
 const Contact = () => {
   const form = useRef();
 
-  const [canSend, setCS] = useState(true);
-  useEffect(() => {
-    const setCanSend = setInterval(() => {
-      setCS(canSend => !canSend);
-      console.log('canSend: ', canSend);
-    }, 3000);
-
-    // Stops repeating code
-    return () => clearInterval(setCanSend);
-  }, []);
-
   const sendEmail = (e) => {
-    if (canSend) {
-      e.preventDefault();
+    e.preventDefault();
 
-      emailjs
-        .sendForm('service_yyf2sly', 'template_krykwfy', form.current, {
-          publicKey: 'U41YQeEE_LZ0ZcVpz',
-        })
-        .then(
-          () => {
-            console.log('SUCCESS!');
-          },
-          (error) => {
-            console.log('FAILED...', error.text);
-          },
-        );
-    } else {
-      console.log('You have sent too many emails');
-    } 
+    emailjs
+      .sendForm('service_yyf2sly', 'template_krykwfy', form.current, {
+        publicKey: 'U41YQeEE_LZ0ZcVpz',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
   };
 
   return (
