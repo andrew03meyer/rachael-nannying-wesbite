@@ -10,7 +10,7 @@ import Banner from "./Banner/Banner";
 
 function App() {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col text-serif">
         <BrowserRouter>
         <div className="flex App ">
           <Sidebar />
