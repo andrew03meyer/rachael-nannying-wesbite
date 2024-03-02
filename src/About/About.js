@@ -11,9 +11,9 @@ function About() {
           <img src={NannyPic} alt="Nanny" className="opacity-70 w-full mt-5 rounded-3xl"/>
         </div>
         
-        <h2 className="absolute text-7xl text-center mt-48 font-serif font-bold text-black">About Me:</h2>
+        <h2 className="absolute text-7xl text-center mt-48 font-roboto font-bold text-black">About Me:</h2>
 
-        <div className="relative flex flex-col p-5 bg-gradient-to-br from-white to-white font-serif shadow-2xl w-full">
+        <div className="relative flex flex-col p-5 bg-gradient-to-br from-white to-white font-roboto shadow-2xl w-full">
           <h2 className="text-3xl m-2 underline">Testimonials:</h2>
           <div className="flex">
             <div className="flex flex-col items-center bg-gradient-to-br from-white to-orange-100 m-2 p-5 rounded-3xl">
@@ -44,14 +44,14 @@ function About() {
           </div>
         </div>
 
-        <div className="relative p-5 bg-gradient-to-br from-white to-orange-100 font-serif shadow-2xl w-full">
+        <div className="relative p-5 bg-gradient-to-br from-white to-orange-100 font-roboto shadow-2xl w-full">
           <h2 className="text-3xl m-2 underline">Location:</h2>
           <p className="text-xl italic">
           Cras aliquam, leo at tincidunt sodales, orci nulla gravida sapien, sollicitudin ultricies elit nisl ac nisi. Donec magna risus, luctus sit amet justo in, convallis tristique dolor. Nam vulputate lacus ante, in accumsan enim efficitur ac. Nullam faucibus diam in diam ullamcorper malesuada. Nullam ut convallis nisi. Aenean interdum est in nunc vestibulum eleifend et vel libero. Morbi tellus turpis, dapibus ac sagittis nec, gravida ut dolor. Morbi arcu ligula, efficitur nec ullamcorper pharetra, euismod vel ex.
           </p>
         </div>
 
-        <div className="relative p-5 bg-gradient-to-br from-white to-white font-serif shadow-2xl w-full">
+        <div className="relative p-5 bg-gradient-to-br from-white to-white font-roboto shadow-2xl w-full">
           <h2 className="text-3xl m-2 underline">Experience</h2>
           <p className="text-xl italic">
             It if sometimes furnished unwilling as additions so. Blessing resolved peculiar fat graceful ham. 

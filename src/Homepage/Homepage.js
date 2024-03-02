@@ -23,7 +23,7 @@ function Homepage() {
 
   return (
     <>
-    <div className="flex relative flex-col font-serif mb-40 w-screen text-serif mr-16 sm:mr-0">
+    <div className="flex relative flex-col font-roboto mb-40 w-screen text-roboto mr-16 sm:mr-0">
       <div className="flex flex-col justify-center relative w-full h-auto max-h-screen overflow-y-hidden mb-16">
         
         <img id="image" src={images[index]} alt="Nanny" className="w-full h-auto opacity-80" />
@@ -48,9 +48,9 @@ function Homepage() {
         </div>
       </div>
 
-      <div className="w-full bg-gradient-to-br from-white to-orange-50 italic">
-        <h1 className="text-4xl p-5 w-full font-bold text-black">Experience:</h1>
-        <p className="text-xl w-full m-auto p-5">We are a team of dedicated and compassionate individuals who are here to help you and your loved ones. We understand that it can be difficult to trust someone else with the care of your family, but we are here to provide you with the peace of mind that you need. We are here to help you and your loved ones with any and all of your needs. We are here to help you and your loved ones with any and all of your needs. We are here to help you and your loved ones with any and all of your needs. We are here to help you and your loved ones with any and all of your needs. We are here to help you and your loved ones with any and all of your needs. We are here to help you and your loved ones with any and all of your needs. We are here to help you and your loved ones with any and all of your needs. We are here to help you and your loved ones with any and all of your needs. We are here to help you and your loved ones with any and all of your needs.</p>
+      <div className="w-full bg-gradient-to-br from-white to-orange-50 italic sm:ml-12">
+        <h1 className="text-4xl w-full font-bold text-black pb-5">Experience:</h1>
+        <p className="text-xl w-full m-auto">We are a team of dedicated and compassionate individuals who are here to help you and your loved ones. We understand that it can be difficult to trust someone else with the care of your family, but we are here to provide you with the peace of mind that you need. We are here to help you and your loved ones with any and all of your needs. We are here to help you and your loved ones with any and all of your needs. We are here to help you and your loved ones with any and all of your needs. We are here to help you and your loved ones with any and all of your needs. We are here to help you and your loved ones with any and all of your needs. We are here to help you and your loved ones with any and all of your needs. We are here to help you and your loved ones with any and all of your needs. We are here to help you and your loved ones with any and all of your needs. We are here to help you and your loved ones with any and all of your needs.</p>
       </div>
     </div>
     </>

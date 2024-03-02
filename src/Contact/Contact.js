@@ -24,7 +24,7 @@ const Contact = () => {
 
   return (
     <>
-      <div className='flex flex-col items-center relative h-screen w-full font-serif'>
+      <div className='flex flex-col items-center relative h-screen w-full font-roboto'>
         <TopBanner />
         <h1 className="text-7xl text-center mt-20 mb-20 font-bold text-black">Contact Us:</h1>
         <form ref={form} onSubmit={sendEmail} className="flex flex-col items-center justify-center w-full">
