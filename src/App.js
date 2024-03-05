@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="flex flex-col text-roboto">
         <BrowserRouter>
-        <div className="flex App ">
+        <div className="flex App bg-white">
           <Sidebar />
 
           <Routes>
