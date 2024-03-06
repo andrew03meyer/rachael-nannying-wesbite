@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="flex flex-col text-roboto">
         <BrowserRouter>
-        <div className="flex App bg-white">
+        <div className="flex bg-white">
           <Sidebar />
 
           <Routes>
@@ -22,7 +22,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/sent" element={<Sent />} />
           </Routes>
-      </div>
+        </div>
         <Banner className="items-end" />
       </BrowserRouter>
     </div>
