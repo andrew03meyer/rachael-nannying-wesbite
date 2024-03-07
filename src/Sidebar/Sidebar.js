@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 function Sidebar(){
     return(
     <>
-    <div className ="group space-y-1 w-20 hover:w-60 transition-all duration-700 text-roboto bg-gradient-to-r from-gray-200 to-white">
-        <div className="group">
-            <div className="transition-all duration-1000 block w-5 truncate group-hover:w-7 h-0.5 m-1 bg-black text-sm"></div>
-            <div className="transition-all duration-1000 block w-5 truncate group-hover:w-5 h-0.5 m-1 bg-black text-sm"></div>
-            <div className="transition-all duration-1000 block w-5 truncate group-hover:w-7 h-0.5 m-1 bg-black text-sm"></div>
+    <div className ="group space-y-1 w-20 inline-block hover:w-60 transition-all duration-700 text-roboto bg-gradient-to-r from-gray-200 to-white">
+        <div className="flex flex-col group w-full p-2">
+            <div className="transition-all duration-1000 inline-block w-6 h-0.5 group-hover:w-7 m-1 bg-gray-600"></div>
+            <div className="transition-all duration-1000 inline-block w-6 h-0.5 group-hover:w-5 m-1 bg-gray-600"></div>
+            <div className="transition-all duration-1000 inline-block w-6 h-0.5 group-hover:w-7 m-1 bg-gray-600"></div>
         </div>
 
         <div>

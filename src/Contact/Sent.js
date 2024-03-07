@@ -1,7 +1,7 @@
 function Sent(){
     return (
-    <div className="flex flex-col justify-center items-center w-full">
-        <h1 className="text-7xl text-center mt-20 font-serif font-bold text-orange-300">Message has been sent!</h1>
+    <div className="flex h-screen justify-center items-center w-full">
+        <div className="text-7xl text-center font-serif w-full font-bold bg-white text-gray-600">Message has been sent!</div>
     </div>
     )
 }
