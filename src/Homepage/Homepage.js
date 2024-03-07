@@ -23,8 +23,8 @@ function Homepage() {
 
   return (
     <>
-    <div className="flex relative flex-col font-roboto mb-40 w-screen text-roboto mr-16 sm:mr-0">
-      <div className="flex flex-col justify-center relative w-full h-auto max-h-screen overflow-y-hidden mb-16">
+    <div className="flex relative flex-col font-roboto mb-40 w-screen text-roboto">
+      <div className="flex flex-col justify-center relative w-full h-auto max-h-screen overflow-y-hidden">
         
         <img id="image" src={images[index]} alt="Nanny" className="w-full h-auto opacity-80" />
         <div className="absolute m-10">
@@ -39,7 +39,7 @@ function Homepage() {
 
       <div className="w-full bg-gradient-to-br from-gray-100 to-gray-300 italic p-5">
       {/* <div class="bg-blue-500 sm:bg-red-500">This background color is blue on small screens and red on larger screens.</div> */}
-        <div className="flex flex-col items-center w-full h-auto sm:flex-row">
+        <div className="flex flex-col items-center mt-5 mb-5 w-full h-auto sm:flex-row">
           <img src={ProfilePic} alt="Profile" className="w-full m-0 sm:h-20vw" />
           <div className="flex flex-col">
             <h1 className="text-4xl p-5 w-full font-bold text-black ">Profile:</h1>
@@ -48,7 +48,7 @@ function Homepage() {
         </div>
       </div>
 
-      <div className="flex w-full bg-gradient-to-br from-white to-gray-200 italic p-5 h-auto">
+      <div className="flex flex-col w-full bg-gradient-to-br from-white to-gray-200 italic p-5 h-auto sm:flex-row">
         <div className="flex flex-col items-center w-1/2 h-auto m-5">
           <h1 className="text-4xl w-full font-bold text-black pb-5">About</h1>
           <p className="text-xl w-full m-auto">We are a team of dedicated and compassionate individuals who are here to help you and your loved ones. We understand that it can be difficult to trust someone else with the care of your family, but we are here to provide you with the peace of mind that you need. We are here to help you and your loved ones with any and all of your needs. We are here to help you and your loved ones with any and all of your needs. We are here to help you and your loved ones with any and all of your needs. We are here to help you and your loved ones with any and all of your needs. We are here to help you and your loved ones with any and all of your needs. We are here to help you and your loved ones with any and all of your needs.</p>

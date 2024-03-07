@@ -32,7 +32,7 @@ const Contact = () => {
       <div className='flex flex-col items-center relative h-screen w-full font-roboto mb-20'>
         <TopBanner />
         <h1 className="text-7xl text-center mt-20 mb-20 font-bold text-black">Contact Us:</h1>
-        <form ref={form} onSubmit={sendEmail} className="flex flex-col items-center h-auto justify-center w-1/2">
+        <form ref={form} onSubmit={sendEmail} className="flex flex-col items-center h-auto justify-center w-2/6">
           <input type="text" id="from_name" name="from_name" placeholder="Full Name" className="m-5 w-full p-1 bg-gradient-to-br from-white to-gray-200" />
           <input type="email" id="email" name="email" placeholder="Your Email" className="m-5 w-full p-1 bg-gradient-to-br from-white to-gray-200" />
           <textarea name="message" id="message" placeholder="Message" className="m-5 w-full p-1 bg-gradient-to-br from-white to-gray-200" />
